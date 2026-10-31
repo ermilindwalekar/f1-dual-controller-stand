@@ -1,0 +1,219 @@
+{
+  "source_sha256": "c434dd9c38286f0b5a7c7fecfac95b672fc379cff3bd25c22287b02daca8a73e",
+  "body_sha256": "41af5b2e39b20f966cdb068809351fca856f8b8573e85f89f741a06ab5065be0",
+  "hard_assembly_sha256": "dfab011b8e5a19d40a7ed2652fa1a61849fb01ff84a16b6b2ffc145e48fedd81",
+  "reference_sha256": "5e5d719ca1a576dc1f635d40ca35fd88fb87d530f9172effff23bdc366203960",
+  "reference_triangles": 1980421,
+  "body_triangles": 13930,
+  "body_watertight": true,
+  "body_components": 1,
+  "body_bounds_mm": [
+    [
+      -70.0156,
+      -71.3622,
+      0.0
+    ],
+    [
+      70.0156,
+      58.9944,
+      210.0
+    ]
+  ],
+  "ground_contact_hull_mm": [
+    [
+      22.0,
+      43.0,
+      0.0
+    ],
+    [
+      -22.0,
+      43.0,
+      0.0
+    ],
+    [
+      -66.1805,
+      -52.0,
+      0.0
+    ],
+    [
+      -70.0156,
+      -61.6378,
+      0.0
+    ],
+    [
+      -46.9844,
+      -71.3622,
+      0.0
+    ],
+    [
+      46.9844,
+      -71.3622,
+      0.0
+    ],
+    [
+      70.0156,
+      -61.6378,
+      0.0
+    ],
+    [
+      66.1805,
+      -52.0,
+      0.0
+    ]
+  ],
+  "levels_mm": [
+    52,
+    162
+  ],
+  "removal_steps_mm": [
+    [
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      -70,
+      0
+    ],
+    [
+      0,
+      0,
+      30
+    ]
+  ],
+  "removal_clearance_bound_mm": 0.4,
+  "seated": [
+    {
+      "rigid_clearance_mm": 0.6143168725414473,
+      "nearest_points_mm": [
+        [
+          -11.256269267599883,
+          -27.256269267599883,
+          71.1800023056864
+        ],
+        [
+          -11.32280758082221,
+          -27.71575491131873,
+          71.58228431619509
+        ]
+      ]
+    },
+    {
+      "rigid_clearance_mm": 0.6142816466509169,
+      "nearest_points_mm": [
+        [
+          -11.256353876767964,
+          -27.256353876767964,
+          181.17994548306427
+        ],
+        [
+          -11.32282822176359,
+          -27.71574569022954,
+          181.58229143444697
+        ]
+      ]
+    }
+  ],
+  "removal_paths": [
+    {
+      "level_mm": 52,
+      "segments": [
+        {
+          "minimum_sampled_clearance_mm": 0.6143168725414473,
+          "samples": 8
+        },
+        {
+          "minimum_sampled_clearance_mm": 2.0704282239788436,
+          "samples": 28
+        },
+        {
+          "minimum_sampled_clearance_mm": 8.298467052895855,
+          "samples": 7
+        }
+      ]
+    },
+    {
+      "level_mm": 162,
+      "segments": [
+        {
+          "minimum_sampled_clearance_mm": 0.6142816466509169,
+          "samples": 8
+        },
+        {
+          "minimum_sampled_clearance_mm": 2.1129469316381333,
+          "samples": 20
+        },
+        {
+          "minimum_sampled_clearance_mm": 34.49326941013712,
+          "samples": 7
+        }
+      ]
+    }
+  ],
+  "controller_pair": {
+    "clearance_mm": 15.238722039372359,
+    "nearest_points_mm": [
+      [
+        56.71029408424292,
+        -23.692717172299165,
+        121.19991949700042
+      ],
+      [
+        60.74237365835341,
+        -32.88144350066557,
+        132.6684979687937
+      ]
+    ]
+  },
+  "rear_horn_-1": {
+    "clearance_mm": 9.184375243394449,
+    "nearest_points_mm": [
+      [
+        -54.0,
+        17.0,
+        205.0
+      ],
+      [
+        -50.55030198224926,
+        11.9351634991025,
+        211.8410352591534
+      ]
+    ]
+  },
+  "rear_horn_1": {
+    "clearance_mm": 9.113686270687076,
+    "nearest_points_mm": [
+      [
+        54.0,
+        17.0,
+        205.0
+      ],
+      [
+        50.622124972807214,
+        11.905851833320261,
+        211.76009557603226
+      ]
+    ]
+  },
+  "pad_surface_errors": [
+    {
+      "sample_count": 1280,
+      "maximum_above_scan_mm": 0.1307892666686712,
+      "maximum_below_scan_mm": 0.09970281516055479,
+      "rms_error_mm": 0.024065658226498445
+    },
+    {
+      "sample_count": 1280,
+      "maximum_above_scan_mm": 0.14625637233744726,
+      "maximum_below_scan_mm": 0.14271611928056416,
+      "rms_error_mm": 0.026312382622295342
+    },
+    {
+      "sample_count": 2240,
+      "maximum_above_scan_mm": 0.023823966891015402,
+      "maximum_below_scan_mm": 0.02030891341843244,
+      "rms_error_mm": 0.004534204281658615
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "seat_controller_pitch": 30,
+  "seat_controller_y": -28,
+  "seat_controller_height": 31.9,
+  "seat_hard_clearance": 1.25,
+  "seat_pad_centers": [
+    [
+      -16,
+      -42
+    ],
+    [
+      16,
+      -42
+    ],
+    [
+      0,
+      -22
+    ]
+  ],
+  "seat_pad_sizes": [
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      14,
+      10
+    ]
+  ],
+  "seat_pad_bottoms": [
+    10.337140571009167,
+    10.301890882483898,
+    18.048197913039466
+  ],
+  "reference": "references\\dualsense-scan\\Controller_HQ2.3mf",
+  "reference_triangles": 1980421,
+  "preview_triangles": 39999,
+  "body_surface_gap_mm": 1.25,
+  "seat_triangles": 6992,
+  "pads": [
+    {
+      "center": [
+        -16,
+        -42
+      ],
+      "size": [
+        10,
+        8
+      ],
+      "bottom": 10.337140571009167,
+      "triangles": 1424
+    },
+    {
+      "center": [
+        16,
+        -42
+      ],
+      "size": [
+        10,
+        8
+      ],
+      "bottom": 10.301890882483898,
+      "triangles": 1424
+    },
+    {
+      "center": [
+        0,
+        -22
+      ],
+      "size": [
+        14,
+        10
+      ],
+      "bottom": 18.048197913039466,
+      "triangles": 2432
+    }
+  ]
+}

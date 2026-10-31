@@ -1,0 +1,139 @@
+{
+  "source_sha256": "c434dd9c38286f0b5a7c7fecfac95b672fc379cff3bd25c22287b02daca8a73e",
+  "hard_assembly_sha256": "dfab011b8e5a19d40a7ed2652fa1a61849fb01ff84a16b6b2ffc145e48fedd81",
+  "exports": [
+    {
+      "file": "f1_dual_controller_stand_body.stl",
+      "mode": "body",
+      "triangles": 13930,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -70.0156,
+          -71.3622,
+          0.0
+        ],
+        [
+          70.0156,
+          58.9944,
+          210.0
+        ]
+      ],
+      "sha256": "41af5b2e39b20f966cdb068809351fca856f8b8573e85f89f741a06ab5065be0"
+    },
+    {
+      "file": "f1_dual_controller_stand_tpu_pads.stl",
+      "mode": "pads",
+      "triangles": 5316,
+      "components": 6,
+      "bounds_mm": [
+        [
+          -29.0,
+          -5.0,
+          0.0
+        ],
+        [
+          31.0,
+          29.0,
+          11.927
+        ]
+      ],
+      "sha256": "0d5ce8ceef32b4ca0debbe9559c1a8c3779b6be3b3cb3aa9a1f9038f8b43b21d"
+    },
+    {
+      "file": "controller_cradle_fit_test.stl",
+      "mode": "cradle_test",
+      "triangles": 6360,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -62.0,
+          -52.0,
+          0.0
+        ],
+        [
+          62.0,
+          29.0,
+          45.0
+        ]
+      ],
+      "sha256": "a40ea7dd7dec3c630877ec7fb9798a204a1c9d58618536dcaed0b083811c5b0d"
+    },
+    {
+      "file": "f1_dual_controller_stand_red_inserts.stl",
+      "mode": "inserts",
+      "triangles": 360,
+      "components": 10,
+      "bounds_mm": [
+        [
+          -59.12,
+          -89.6021,
+          1.2207e-06
+        ],
+        [
+          91.18,
+          89.6021,
+          2.45999
+        ]
+      ],
+      "sha256": "6438e446125f2a20274cf12d3af7c0501f6e3fac0b9cd06d6371a2461749944d"
+    },
+    {
+      "file": "f1_dual_controller_stand_red_base_inserts.stl",
+      "mode": "inserts_base",
+      "triangles": 72,
+      "components": 2,
+      "bounds_mm": [
+        [
+          -11.92,
+          -55.2305,
+          1.2207e-06
+        ],
+        [
+          11.48,
+          55.2305,
+          2.45999
+        ]
+      ],
+      "sha256": "35526f162840084dd27d9bab64aab217c1e6391c9186bf79de926fb5bbcb9073"
+    },
+    {
+      "file": "f1_dual_controller_stand_red_spine_inserts.stl",
+      "mode": "inserts_spine",
+      "triangles": 72,
+      "components": 2,
+      "bounds_mm": [
+        [
+          -11.12,
+          -89.6021,
+          1.2207e-06
+        ],
+        [
+          10.68,
+          89.6021,
+          2.45999
+        ]
+      ],
+      "sha256": "f6a298d5231b2125f61f8730fbc0ccf44c0a96f94a4d223968ad7e662be40a35"
+    },
+    {
+      "file": "f1_dual_controller_stand_red_cradle_inserts.stl",
+      "mode": "inserts_cradles",
+      "triangles": 216,
+      "components": 6,
+      "bounds_mm": [
+        [
+          -35.62,
+          -33.12,
+          1.2207e-06
+        ],
+        [
+          43.18,
+          33.12,
+          2.45999
+        ]
+      ],
+      "sha256": "e70c10053dfeef26633d2ae3f2172f06b58689e970920d2d6f8f59e1b5b0427c"
+    }
+  ]
+}
